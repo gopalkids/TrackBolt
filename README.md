@@ -1,5 +1,5 @@
 
-# 🚀 Slack Expense Tracker Bot
+# 🚀 TrackBolt
 
 > *Track your expenses directly from Slack — log them with a simple message, and they magically appear in your Google Sheet, with optional invoice uploads!*
 
