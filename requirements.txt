@@ -1,0 +1,11 @@
+Flask
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+pytz
+requests
+dropbox
+pytesseract
+Pillow
+gunicorn
