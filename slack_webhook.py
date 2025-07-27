@@ -92,8 +92,9 @@ def slack_events():
     data = request.json
     print(data)
 
+    # ✅ Slack URL Verification
     if data.get("type") == "url_verification":
-        return jsonify({"challenge": data["challenge"]})
+        return data["challenge"], 200
 
     if data.get("event", {}).get("type") == "message":
         event = data["event"]
